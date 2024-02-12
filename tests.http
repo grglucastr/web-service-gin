@@ -1,1 +1,14 @@
 GET http://localhost:8080/albums
+
+### 
+
+POST http://localhost:8080/albums HTTP/1.1
+Host: localhost:8080
+Content-Type: "application/json"
+
+{
+  "id": "213",
+  "title":"Master of Puppets",
+  "artist":"Metallica",
+  "price": 12.99
+}
